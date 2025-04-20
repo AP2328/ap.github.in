@@ -10,9 +10,9 @@
   <header>
     <div class="logo">Fashora</div>
     <nav>
-      <a href="#">Men</a>
-      <a href="#">Women</a>
-      <a href="#">Kids</a>
+      <a href="he.html">HE</a>
+      <a href="she.html">SHE</a>
+      <a href="1.html">ONE_Time</a>
       <a href="#">Home & Living</a>
       <a href="#">Beauty</a>
     </nav>
