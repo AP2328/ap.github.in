@@ -22,7 +22,7 @@
   <header>
     <div class="logo"><img src="logo.png" alt="Myntra Logo" height="40"/></div>
     <nav>
-      <a href="#">Men</a>
+      <a href="#">He</a>
       <a href="#">Women</a>
       <a href="#">Kids</a>
       <a href="#">Home & Living</a>
