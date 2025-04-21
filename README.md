@@ -31,6 +31,7 @@
   
 </header>
 
+<p>
 
 <body>
 
@@ -76,7 +77,7 @@
     </div>
   </section>
 
-
+</p>
 
   <footer>
     <p>© 2025 Anjali. All rights reserved.</p>
