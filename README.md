@@ -27,7 +27,7 @@
 
     <input type="text" placeholder="Search for products..." />
 
-<script src="script.js"></script>
+
   
 </header>
 
