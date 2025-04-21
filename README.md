@@ -11,10 +11,11 @@
 
 </head>
 
-<button class="menu-toggle" id="menuToggle">☰</button>
-
 <body>
  <nav class="navbar">
+
+ <button class="menu-toggle" id="menuToggle">☰</button>
+
 
   <header>
     <div class="logo">ap</div>
