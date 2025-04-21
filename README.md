@@ -12,7 +12,7 @@
     <div class="logo">ShopEasy</div>
     <ul class="nav-links">
       <li><a href="#">Home</a></li>
-      <li><a href="#">Men</a></li>
+      <li><a href="he.index">HE</a></li>
       <li><a href="#">Women</a></li>
       <li><a href="#">Kids</a></li>
       <li><a href="#">Contact</a></li>
