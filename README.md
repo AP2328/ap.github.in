@@ -19,8 +19,9 @@
       <a href="#">Home & Living</a>
       <a href="#">Beauty</a>
     </nav>
-<script src="script.js"></script>
+
     <input type="text" placeholder="Search for products..." />
+<script src="script.js"></script>
   </header>
 
   <section class="banner">
