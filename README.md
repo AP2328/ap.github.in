@@ -79,10 +79,11 @@
 
   <!-- Add more product cards -->
 
+</body>
 
   <footer>
     <p>© 2025 Anjali. All rights reserved.</p>
   </footer>
 
-</body>
+
 </html>
