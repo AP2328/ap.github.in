@@ -19,7 +19,7 @@
   <header>
     <div class="logo">ap</div>
    
- <nav>
+    <nav>
       <a href="he.html">HE</a>
       <a href="she.html">SHE</a>
       <a href="1.html">ONE_Time</a>
@@ -27,11 +27,8 @@
 
     <input type="text" placeholder="Search for products..." />
 
+   </header>
 
-  
-</header>
-
-<p>
 
 <body>
 
@@ -48,10 +45,12 @@
     </div>
     <button class="carousel-btn right-btn" id="rightBtn">&#8594;</button>
   </div>
-  <script src="script.js"></script>
+
 </saction>
 
 
+
+  <!-- Add more product cards -->
 
 
   <section class="banner">
@@ -59,6 +58,7 @@
   </section>
 
   <section class="products">
+
     <h2>New Arrivals</h2>
     <div class="product-grid">
       <div class="product-card">
@@ -73,14 +73,16 @@
         <h3>Women's Dress</h3>
         <p>$45</p>
       </div>
-      <!-- Add more product cards -->
     </div>
   </section>
 
-</p>
+
+  <!-- Add more product cards -->
+
 
   <footer>
     <p>© 2025 Anjali. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
