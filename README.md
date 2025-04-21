@@ -25,6 +25,25 @@
 <script src="script.js"></script>
   </header>
 
+
+<body>
+  <div class="carousel-container">
+    <button class="carousel-btn left-btn" id="leftBtn">&#8592;</button>
+    <div class="carousel" id="carousel">
+      <div class="product">Product 1</div>
+      <div class="product">Product 2</div>
+      <div class="product">Product 3</div>
+      <div class="product">Product 4</div>
+      <div class="product">Product 5</div>
+      <div class="product">Product 6</div>
+    </div>
+    <button class="carousel-btn right-btn" id="rightBtn">&#8594;</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+
+
   <section class="banner">
     <img src="https://via.placeholder.com/1200x400" alt="Banner" />
   </section>
