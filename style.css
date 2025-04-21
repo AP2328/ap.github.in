@@ -136,4 +136,84 @@ body, ul, li, a {
   }
 }
 
-/1-----------------
+/1----------------
+-/-------
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Carousel Container */
+.carousel-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Carousel Inner */
+.carousel {
+  display: flex;
+  gap: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Individual Product */
+.product {
+  min-width: 200px;
+  height: 150px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Carousel Buttons */
+.carousel-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.left-btn {
+  left: 10px;
+}
+
+.right-btn {
+  right: 10px;
+}
+
+.carousel-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+-///////-----
