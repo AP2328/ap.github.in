@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fashion Store</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ap</title>
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
+
 </head>
 
- <button class="menu-toggle" id="menuToggle">☰</button>
+<button class="menu-toggle" id="menuToggle">☰</button>
+
 <body>
  <nav class="navbar">
+
   <header>
-    <div class="logo">Fashora</div>
+    <div class="logo">ap</div>
    
  <nav>
       <a href="he.html">HE</a>
@@ -22,11 +26,15 @@
     </nav>
 
     <input type="text" placeholder="Search for products..." />
+
 <script src="script.js"></script>
-  </header>
+  
+</header>
 
 
 <body>
+
+<saction>
   <div class="carousel-container">
     <button class="carousel-btn left-btn" id="leftBtn">&#8592;</button>
     <div class="carousel" id="carousel">
@@ -40,7 +48,8 @@
     <button class="carousel-btn right-btn" id="rightBtn">&#8594;</button>
   </div>
   <script src="script.js"></script>
-</body>
+</saction>
+
 
 
 
@@ -66,6 +75,8 @@
       <!-- Add more product cards -->
     </div>
   </section>
+
+
 
   <footer>
     <p>© 2025 Anjali. All rights reserved.</p>
