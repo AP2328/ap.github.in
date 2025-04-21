@@ -59,3 +59,81 @@ footer {
   padding: 20px;
   background: #eee;
 }
+
+/1-------------_-----
+
+/* General Reset */
+body, ul, li, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu li a {
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.menu li a:hover {
+  background-color: #555;
+}
+
+/* Responsive Styling */
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 3.5rem;
+    left: 0;
+  }
+
+  .menu.active {
+    display: flex;
+  }
+
+  .menu li {
+    text-align: center;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+/1-----------------
